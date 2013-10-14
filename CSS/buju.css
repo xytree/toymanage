@@ -1,0 +1,19 @@
+﻿.rightbox
+{
+    float: right;
+    width: 50%;
+    height: 500px;
+    color: #FFFFFF;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.leftbox
+{
+    float: left;
+    width: 48%;
+    height: 500px;
+    color: #FFFFFF;
+    background-color: #ffffff;
+    margin: auto;
+}

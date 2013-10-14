@@ -1,0 +1,95 @@
+body{
+     margin:0px;
+     padding:0px;
+	 background-image:url(../images/liebiaobeijing.png);
+	 background-repeat:repeat-y;
+     }
+.ceng1{   
+     margin-left:0px;
+	 margin-top:0px;
+	 margin-bottom:0px;
+	 padding:4px;
+	 width:193px;
+	 height:27px;
+	 background-image:url(../images/daohang1.png);
+	 background-repeat:no-repeat; 
+	 }
+.ceng2{
+     margin-left:0px;
+	 margin-top:-12px;
+	 width:187px;
+	 padding:0px;
+	 text-align:center;
+	 background-image:url(../images/liebiaobeijing.png);
+	 background-repeat:repeat-y;
+	 }
+	 
+dl{
+	 padding:0px;
+	 margin:0px;
+	 }
+	 
+.dttype
+{
+    line-height: 40px;
+    background-image: url(../images/dt.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0px 0px 0px 5px;
+    margin: 0px;
+    font-size: small;
+    color: #595959;
+    text-align: left;
+    font-weight: 900;
+    vertical-align: middle;
+}
+	
+	 
+dd{
+	  padding:0px;
+      margin:0px;
+      clear: both;
+	  }
+
+ul{
+       padding:0px;
+       margin:0px;
+       list-style-type:none;
+	   width:100%;
+	   }
+	   
+li{
+    padding: 0px;
+    margin: 0px;
+	width:94%;
+	   }
+
+a
+{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    width: 105%;
+    line-height: 3.5em;
+    font-size: small;
+    font-weight: bold;
+    color: #595959;
+    text-align: left;
+    text-decoration: none;
+}
+
+a img{
+     margin-bottom:-10px;
+	 margin-left:20px;
+}
+
+/*a:link,a:visited{
+     background-color:#fafafa;
+      }*/
+
+a:hover,a:active{
+     background-color:#88b6f0;
+	  }
+
+.imgdt1{float:right; margin:13px 10px; background:url(../images/show.png) no-repeat; width:13px; height:17px;}
+.imgdt2{float:right; margin:13px 10px; background:url(../images/hidden.png) no-repeat; width:17px; height:13px;}

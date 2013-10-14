@@ -1,0 +1,125 @@
+﻿.datalist
+{
+    border: 1px solid #0058a3; /* 表格边框 */
+    font-family: Arial;
+    border-collapse: collapse; /* 边框重叠 */
+    background-color: #eaf5ff; /* 表格背景色 */
+    font-size: 14px;
+    vertical-align: middle;
+}
+.datalist caption{
+	padding-bottom:5px;
+	font:bold 1.4em;
+	text-align:left;
+}
+.datalist th{
+	border:1px solid #0058a3;	/* 行名称边框 */
+	background-color:#4bacff;	/* 行名称背景色 */
+	color:#000000;				/* 行名称颜色 */
+	font-weight:bold;
+	padding-top:4px; padding-bottom:4px;
+	padding-left:12px; padding-right:12px;
+	text-align:center;
+}
+.datalist td{
+	border:1px solid #0058a3;	/* 单元格边框 */
+	text-align:left;
+	padding-top:4px; padding-bottom:4px;
+	padding-left:10px; padding-right:10px;
+}
+.datalist tr.altrow{
+	background-color:#c7e5ff;	/* 隔行变色 */
+}
+
+/*DetailView的CSS样式*/
+.DetaiView_BodyCSS{
+    background-color:#ddf9fe;
+    border-width:1px;
+    border-color:#0058a3;
+    border-style:solid;
+    Font-Size:18px;
+    Color: Black;
+    Height:100%;
+    Width:95%;
+}
+　　
+.DetaiView Header
+　　{/*页眉*/
+    background-color: White;
+    height:22px;
+    font-size: 14px;
+    color:#05BEE1;
+    font-weight:bold;
+    text-align:left;
+    height:30px;
+}
+　　
+.DetaiView tr
+　　{/*奇数行*/
+    background-color: #F3F3F3;
+    height:15px;
+    color:#000000;
+    background-color: #DDF9FE;
+    border: solid 1px #ffffff;
+}
+　　
+　　.DetaiView th
+　　{/*偶数行*/
+    background-color: RGB(255,255,255);
+    height:15px;
+    color:#000000;
+    background-color: #E9FCFF;
+    border: solid 1px #ffffff;
+}
+
+/*按钮风格*/
+
+.blues {
+color: #fff;
+width: 120px;
+height: 28px;
+cursor: pointer;
+font-family: Arial, Tahoma, sans-serif ;
+font-size:small;
+font-weight: bold;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-width: 1px;
+border-color: #0053a6 #0053a6 #000;
+background-color: #6891e7;
+background-image: -moz-linear-gradient(top,#4495e7 0, #0053a6 100%);
+background-image: -ms-linear-gradient(top,#4495e7 0, #0053a6 100%);
+background-image: -o-linear-gradient(top,#4495e7 0, #0053a6 100%);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #4495e7),color-stop(100%, #0053a6));
+background-image: -webkit-linear-gradient(top,#4495e7 0,#0053a6 100%);
+background-image: linear-gradient(to bottom,#4495e7 0,#0053a6 100%);
+-moz-box-shadow: inset 0 1px 0 rgba(256, 256, 256, .35);
+-ms-box-shadow: inset 0 1px 0 rgba(256, 256, 256, .35);
+-webkit-box-shadow: inset 0 1px 0 rgba(256, 256, 256, .35);
+}
+
+.blues:hover {
+border-color: #002d59 #002d59 #000;
+-moz-box-shadow: inset 0 1px 0 rgba(256, 256, 256, 0.55), 1px 1px 3px rgba(0, 0, 0, 0.25);
+-ms-box-shadow: inset 0 1px 0 rgba(256, 256, 256, 0.55), 1px 1px 3px rgba(0, 0, 0, 0.25);
+-webkit-box-shadow: inset 0 1px 0 rgba(256, 256, 256, 0.55), 1px 1px 3px rgba(0, 0, 0, 0.25);
+background-image: -moz-linear-gradient(top,#3a8cdf 0,#0053a6 100%);
+background-image: -ms-linear-gradient(top,#3a8cdf 0,#0053a6 100%);
+background-image: -o-linear-gradient(top,#3a8cdf 0,#0053a6 100%);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#3a8cdf),color-stop(100%,#0053a6));
+background-image: -webkit-linear-gradient(top,#3a8cdf 0,#0053a6 100%);
+background-image: linear-gradient(to bottom,#3a8cdf 0,#0053a6 100%);
+}
+
+.blues:active {
+border-color: #000 #002d59 #002d59;
+-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.2),0 1px 0 #fff;
+-ms-box-shadow: inset 0 1px 3px rgba(0,0,0,0.2),0 1px 0 #fff;
+-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.2),0 1px 0 #fff;
+background-image: -moz-linear-gradient(top,#005ab4 0,#175ea6 100%);
+background-image: -ms-linear-gradient(top,#005ab4 0,#175ea6 100%);
+background-image: -o-linear-gradient(top,#005ab4 0,#175ea6 100%);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#005ab4),color-stop(100%,#175ea6));
+background-image: -webkit-linear-gradient(top,#005ab4 0,#175ea6 100%);
+background-image: linear-gradient(to bottom,#005ab4 0,#175ea6 100%);
+}
