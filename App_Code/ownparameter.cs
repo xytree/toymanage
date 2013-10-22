@@ -44,6 +44,12 @@ namespace InfoSpace
         public string 岗位 { get; set; }
         public string 管理权限 { get; set; }
         public string 使用权限 { get; set; }
+        public string 使用权限2 { get; set; }
+        public string 使用权限3 { get; set; }
+        public string 使用权限4 { get; set; }
+        public string 使用权限5 { get; set; }
+        public string 部门权限 { get; set; }
+        public string 超级权限 { get; set; }
         public string 性别 { get; set; }
         public string 年龄 { get; set; }
         public string 注册时间 { get; set; }

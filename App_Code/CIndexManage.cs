@@ -23,6 +23,11 @@ namespace managerspace
 
         public string CurIndex { get; set; }        /*当前使用的报检号*/
 
+        public string Prefix_duotai { get; set; }   /*四种方案使用的前缀*/
+        public string Prefix_Jietong { get; set; }
+        public string Prefix_Core { get; set; }
+        public string Prefix_Toy { get; set; }
+
         public string GetIndex(eType type)
         {
             switch (type)

@@ -30,9 +30,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div class="ceng1">
+<%--    <div class="ceng1">
         
-    </div>
+    </div>--%>
     <div class="ceng2">
         <dl >
         <dt class="dttype"><span></span>报验流程<a class="content"></a></dt>

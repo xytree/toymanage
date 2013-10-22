@@ -16,7 +16,8 @@ body{
 	 }
 .ceng2{
      margin-left:0px;
-	 margin-top:-12px;
+	 /*margin-top:-12px;*/
+    margin-top: 0px;
 	 width:187px;
 	 padding:0px;
 	 text-align:center;

@@ -37,8 +37,8 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cPMainContent" Runat="Server">
-    <div align="center" style="margin-top: 30px;margin-bottom: 20px;margin-left: 0px;" >
-         <table width="390" cellspacing="0" cellpadding="0" class="table" align="center">
+    <div align="center" style="margin-top: 30px;margin-bottom: 20px;margin-left: 2px;" >
+         <table width="390" cellspacing="0" cellpadding="0" class="table" align="left">
             <tr >
                 <td width=15% class="td1" height="35"> 部门名称 </td>
                 <td width=35% class="td2"><input type="text" name="corpnum" id="TxDepartName" runat="server" class="in" /></td>
@@ -56,7 +56,7 @@
          </table>
     </div>
 
-    <div class="ShowInfoDiv" align="center">
+    <div class="ShowInfoDiv" align="left">
         <asp:GridView ID="GdDepartName" runat="server" CssClass="datalist" 
             AutoGenerateColumns="False" Width="100%">
             <Columns>
